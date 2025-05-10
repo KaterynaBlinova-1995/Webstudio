@@ -2,108 +2,203 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Webstudio/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <script type="module" crossorigin src="/Webstudio/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Webstudio/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/Webstudio/assets/index-Dzl37RU2.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/Webstudio/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
+    <header class="header-page">
+  <div class="container header-container">
+    <nav class="page-nav">
+      <a href="./index.html" class="header-logo"
+        >Web<span class="header-logo-web">Studio</span></a
+      >
+
       <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+        <li class="nav-list-item">
+          <a href="./index.html" class="nav-list-link current">Studio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+
+        <li class="nav-list-item">
+          <a href="" class="nav-list-link">Portfolio</a>
+        </li>
+
+        <li class="nav-list-item">
+          <a href="" class="nav-list-link">Contacts</a>
         </li>
       </ul>
     </nav>
+    <address class="address-nav">
+      <ul class="address-list">
+        <li class="address-list-item">
+          <a href="mailto:info@devstudio.com" class="address-list-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="address-list-item">
+          <a href="tel:+110001111111" class="address-list-link"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </address>
+    <button class="burger-btn" type="button">
+      <svg class="burger-icon" width="24" height="24">
+        <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <div class="container mobile-menu-container">
+      <button class="mobile-menu-button" type="button">
+        <svg class="button-close-svg" width="8" height="8">
+          <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a href="./index.html" class="mobile-menu-link current">Studio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="./index.html" class="mobile-menu-link">Portfolio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="./index.html" class="mobile-menu-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="mobile-address">
+        <ul class="mobile-menu-address-list">
+          <li class="mobile-menu-address-item">
+            <a href="tel:+110001111111" class="mobile-menu-address-link accent"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-menu-address-item">
+            <a href="mailto:info@devstudio.com" class="mobile-menu-address-link"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-social-list">
+        <li class="mobile-social-item">
+          <a href="./index.html" class="mobile-social-link">
+            <svg class="mobile-social-svg" width="24" height="24">
+              <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a href="./index.html" class="mobile-social-link">
+            <svg class="mobile-social-svg" width="24" height="24">
+              <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a href="./index.html" class="mobile-social-link">
+            <svg class="mobile-social-svg" width="24" height="24">
+              <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a href="./index.html" class="mobile-social-link">
+            <svg class="mobile-social-svg" width="24" height="24">
+              <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
+      <section class="solutions">
   <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/Webstudio/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
+    <h1 class="solutions-title">Effective Solutions for Your Business</h1>
+    <button type="button" class="solutions-button">
+      <span class="order-service">Order Service</span>
+    </button>
   </div>
 </section>
 
-      <article class="badges">
+      <section class="benefits">
   <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <h2 class="visually-hidden">Benefits</h2>
+
+    <ul class="benefits-list">
+      <li class="benefits-list-item">
+        <div class="benefit-icon">
+          <svg width="64" height="64">
+            <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-antenna"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-heading">Strategy</h3>
+        <p class="benefits-description">
+          Our goal is to identify the business problem to walk away with the
+          perfect and creative solution.
+        </p>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
+      <li class="benefits-list-item">
+        <div class="benefit-icon">
+          <svg width="64" height="64">
+            <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-clock"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-heading">Punctuality</h3>
+        <p class="benefits-description">
+          Bring the key message to the brand's audience for the best price
+          within the shortest possible time.
+        </p>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="benefits-list-item">
+        <div class="benefit-icon">
+          <svg width="64" height="64">
+            <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-diagram"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-heading">Diligence</h3>
+        <p class="benefits-description">
+          Research and confirm brands with the strongest digital growth
+          opportunities and minimize risk.
+        </p>
+      </li>
+      <li class="benefits-list-item">
+        <div class="benefit-icon">
+          <svg width="64" height="64">
+            <use href="/Webstudio/assets/icons-CJha6qmk.svg#icon-astronaut"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-heading">Technologies</h3>
+        <p class="benefits-description">
+          Design practice focused on digital experiences. We bring forth a deep
+          passion for problem-solving.
+        </p>
       </li>
     </ul>
   </div>
-</article>
+</section>
 
     </main>
 
